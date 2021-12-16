@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bundle"
+    },
+    "title": "Bigger Pockets! Was it worth it?",
+    "description": "Craft a bundle from all those defenseless rabbits that stood in your way.",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "king:unlockbundle",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bundle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

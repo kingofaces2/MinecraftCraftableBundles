@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "title": "The Hunt Begins",
+    "description": "Hunt down a rabbit to learn about bigger pockets.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "king:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:rabbit"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "king:bundle"
+    ]
+  }
+}
